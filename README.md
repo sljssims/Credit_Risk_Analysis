@@ -1,4 +1,6 @@
-# Credit_Risk_Analysis
+### Credit Risk Analysis
+
+<img src="https://user-images.githubusercontent.com/87907584/144762016-91cad710-5335-4be3-bea0-27bc06a55824.jpg" width="100" height="80"> 
 
 # Oversampling via SMOTE<br>
 ![SMOTE Oversampling](https://user-images.githubusercontent.com/87907584/144761709-3d76e8db-bcfe-4878-ada9-e9c6e915c08c.PNG)<br>
