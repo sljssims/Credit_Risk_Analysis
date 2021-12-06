@@ -11,6 +11,7 @@ The purpose of this analysis is to develop a learning model that can detect high
 - Precision High Risk Score is 1%
 - Precision Low Risk score is 100%
 - Recall High Risk Score is 74%
+- Recall Low Risk Score is 54%
 # Naive Random Oversampling
 ![Naive Random Oversampling](https://user-images.githubusercontent.com/87907584/144817378-0f53981e-c35b-4829-82d1-aadc300a3130.PNG)
 
@@ -64,4 +65,4 @@ The purpose of this analysis is to develop a learning model that can detect high
 
 
 ### Summary
-The results show that the Ensemble Classifiers appear to perform the best.  The purpose of the analysis is to determine which models can accurately predict when a loan is high risk. By comparing the recall high risk score between all machine learning models we can see the the easy ensemble Classifier models hat the highest scores at 78% and 93%.  As a result, I would use the Easy Ensemble Classifer models for predicting high risk loans. 
+The results show that the Ensemble Classifiers appear to perform the best at detecting high risk loans.  Ultimately, the purpose of the analysis is to determine which models can accurately predict when a loan is high risk. By comparing the recall high risk score between all machine learning models we can see the the easy ensemble Classifier models have the highest scores at 78% and 93%.  As a result, I would use the Easy Ensemble Classifer models for predicting high risk loans. 
