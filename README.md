@@ -1,23 +1,54 @@
 ### Credit Risk Analysis
 
- ![image](https://user-images.githubusercontent.com/87907584/144761837-4eed16e5-e643-417e-93e1-3653045f4bee.png)
-# Naive Oversampling
-![Oversampling Reports](https://user-images.githubusercontent.com/87907584/144762416-18d7f804-42d7-421f-b691-8faffdd6f9b9.PNG)
+## RandomOverSampler Model
+Accuracy Score is 65%
+Precision High Risk Score is 1%
+Precision Low Risk score is 100%
+Recall High Risk Score is 73%
+# Naive Random Oversampling
+Add Code Here
 
-# Oversampling via SMOTE<br>
-![SMOTE Oversampling](https://user-images.githubusercontent.com/87907584/144761709-3d76e8db-bcfe-4878-ada9-e9c6e915c08c.PNG)<br>
+## SMOTE Model
+Accuracy score 66%
+Precision High Risk Score 1%
+Precision Low Risk Score is 100%
+Recall High Risk Score is 63%
+Recall Low risk score is 69%
+# Smote Oversampling 
+
+## ClusterCentroids Model
+Accuracy Score is 66%
+Precision High Risk Score is 1%
+Precision Low Risk Score is 100%
+Rcall High Risk Score is 69%
+Recall Low Risk SCore is 40%
+# Undersampling
+
+## SMOTEENN Model
+Accuracy Score is 54%
+Precision High Risk Score is 1%
+Precision Low Risk Score is 100%
+Recall High Risk Score is 79%
+Recall Low Risk Score is 56%
+# Combination (Over and Under) Sampling
+
+## BalancedRandomForest Classifier Model
+Accuracy Score is 78%
+Precision High Risk Score is 3%
+Precision Low risk Score is 100%
+Recall High Risk Score is 70%
+Recall Low Risk Score is 87%
+# Balanced Random Forest Classifier
+
+## Easy Ensemble Classifier Model
+Accuracy Score is 93%
+Precision High Risk Score is 9%
+Precision Low Risk Score is 100%
+Recall High Risk Score is 92%
+Recall Low Risk Score is 94%
+
+# EasyEnsembleAdaBoost Classifier
 
 
-# Undersampling<br>
-![Undersampling Results](https://user-images.githubusercontent.com/87907584/144761711-1f44523f-28c6-4ec8-bc58-bf7cd9495d63.PNG)<br>
-
-
-# Over and Undersampling<br>
-![Over and Undersampling Results](https://user-images.githubusercontent.com/87907584/144761712-545e2ac5-d357-4921-829e-d9df868585dd.PNG)<br>
-
-# Balanced Random Forest Classifier<br>
-![Balanced Randon Forrester](https://user-images.githubusercontent.com/87907584/144767944-b45eac5e-e620-4bf0-8263-575d592b99f1.PNG)<br>
-
-# Easy Ensemble AdaBoost Classifier<br>
-![Easy Ensemble](https://user-images.githubusercontent.com/87907584/144767947-bb393791-8ce7-45f6-98dd-14b3479b6229.PNG)<br>
-
+### Summary
+The results show that the Ensemble Classifiers appear to perform the best.  The purpose of the analysis is to determine which models can accurately predict when a loan is high risk. By comparing the recall high risk score between all machine learning models we can see the the easy ensemble Classifier models hat the highest scores at 78% and 93%.  As a result, I would use the Easy Ensemble Classifer models for predicting high risk loans. 
