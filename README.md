@@ -1,3 +1,8 @@
+
+
+### <img src="https://user-images.githubusercontent.com/87907584/144821818-371605c7-982e-4347-a2d4-af8da7bbc7fb.png" width="80%" height="80%">
+
+
 ### Credit Risk Analysis
 The purpose of this analysis is to develop a learning model that can detect high risk loans based on data provided. Using sklearn we compared various sampling nmodels to determine which model is the best fit. 
 
